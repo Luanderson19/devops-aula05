@@ -1,0 +1,6 @@
+ # ARQUITETURA
+ 
+* as funcoes relacionadas ao gerenciamento das casas do jogo da velha ficarao no modulo **jogodavelha.py**
+
+* o estado  de cada casa do jogo será representada por uma string '.' para casa vazia; 'x' para casa ocupada pelo 1o jogador; 'o' para casa ocupada pelo 02 jogador
+ * A funcao inicializar() retornará uma lista 3x3 , onde cada posicao contera uma string para indicar o estado de uma casa do jogo.Afuncao retornará todas as casas inicialmente vazias
